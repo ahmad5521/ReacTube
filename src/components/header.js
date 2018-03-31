@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 class MyHeader extends Component {
     render() {        
         return <div>
-                <h1>مرحبا بكم</h1>                
+                <h1>welcome to React</h1>                
             </div>;
     }
 }
