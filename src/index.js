@@ -52,4 +52,8 @@ class App extends Component {
 
 
 ReactDOM.render(<Header />, document.querySelector('.container'));
+<<<<<<< HEAD
 ReactDOM.render(<App />, document.querySelector('.a'));
+=======
+ReactDOM.render(<App />, document.querySelector('.a'));
+>>>>>>> 3c758f977493918bbdcad9be4ad62bf8f1f400c9
