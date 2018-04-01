@@ -27,13 +27,15 @@ class App extends Component {
 
     videoSearch(term){
         YTSearch({key: API_KEY, term: term}, (videos) => {
-            this.setState({ videos: videos});
-            this.setStae({selectedVideo: videos[0]})
+            this.setState({ 
+                videos: videos, 
+                selectedVideo: videos[0]
+            });
         });
     }
 
     render() {
-        const videoSearch = _.debounce((term) => {this.videoSearch(term)}, 300);
+        const videoSearch = _.debounce((term) => {this.videoSearch(term)}, 500);
         
         return(
             <div>
