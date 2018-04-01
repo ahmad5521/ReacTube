@@ -27,7 +27,7 @@ class App extends Component {
             <div>
                 <SearchBar />
                 <VideoDetail video={this.state.videos[0]}/>
-                {/* <VideoList videos={this.state.videos}/> */}
+                <VideoList videos={this.state.videos}/>
             </div>
 
         ); 
