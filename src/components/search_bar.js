@@ -9,7 +9,7 @@ class SearchBar extends Component {
         this.state = {term: ''};
         
     }
-
+ 
 
     render() {
         return (

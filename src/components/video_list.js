@@ -10,7 +10,7 @@ const VideoList = (props) => {
                 key={videoItem.etag} 
                 video={videoItem} />
         );
-    })
+    }) 
 
     return (
         <div>

@@ -8,7 +8,7 @@ class MyHeader extends Component {
                 <h1>welcome to Reactube</h1>                
             </div>;
     }
-}
+} 
 
 
 export default MyHeader;

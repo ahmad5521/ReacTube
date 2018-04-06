@@ -12,7 +12,7 @@ const URL = props.video.snippet.thumbnails.default.url;
                 <div className="media-body">
                     <div className="media-heading">
                         {props.video.snippet.title}
-                    </div>                    
+                    </div>                     
                     {props.video.snippet.description}
                 </div>
             </div>

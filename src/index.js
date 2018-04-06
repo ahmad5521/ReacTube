@@ -11,7 +11,7 @@ const API_KEY = 'AIzaSyDz7LUGmJ3UTV59XPxYUIxuK5dFGfS7HpA';
 
 const Header = () => {
     return <div><MyHeader /></div>;
-}
+} 
 
 class App extends Component {
     constructor(props) {
